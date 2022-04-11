@@ -12,7 +12,7 @@
 }
 
 .gallery {
-  margin: 5% auto 15% auto;
+  margin: -2.5% auto 15% auto;
 }
 
 
@@ -64,10 +64,13 @@ li a:hover:not(.active) {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position:absolute;
+  top: 1500px;
   width: 100%;
-  margin-top: 1500px;
+}
+
+.btn-dark {
+  margin: 15px auto auto 15px;
 }
 
 select {
@@ -97,4 +100,12 @@ video {
     width: auto;
     height: 100%;
   }
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-letters {
+  color: black;
 }
